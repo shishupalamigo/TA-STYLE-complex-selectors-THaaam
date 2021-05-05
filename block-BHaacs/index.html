@@ -50,7 +50,7 @@
 
         <!-- FILES SECTION -->
         <section class="files container">
-            <nav class="flex justify-bw">
+            <nav class="flex justify-bw sm-column">
                 <a href="#.pdf">
                     <img src="assets/media/pdf.png" alt="Pdf">
                     PDF FILE
@@ -70,8 +70,8 @@
             </nav>
         </section>
 
-        <section class="learning-monitor container flex justify-bw">
-            <article class="monitor-description">
+        <section class="learning-monitor container flex justify-bw sm-column">
+            <article class="monitor-description flex-100">
                 <h3>Monitor Your Learning and Improve It</h3>
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. 
@@ -80,31 +80,200 @@
                 </p>
                 <a href="#" class="learn-btn">Learn More</a>
             </article>
-            <div class="graph-container">
+            <div class="graph-container flex-100">
                 <img src="assets/media/learning-graph.png" alt="learning-graph" class="width-full">
             </div>
         </section>
         <!-- TABLE -->
         <section class="table-container container">
            <h2>WEEKLY SCORE</h2>
-            <table>
-                <tr>
-                    <th>
-                        <td>Days</td>
-                        <td>Course</td>
-                        <td>Score(0 - 100)</td>
-                        <td>Hour Spent</td>
-                    </th>
-                </tr>
-                <tr>
-                    <td>Monday</td>
-                    <td>Product Design</td>
-                    <td>40</td>
-                    <td>2 Hour 30 Min</td>
+           <table>
+            <tr>
+                <th>Days</th>
+                <td>Course</td>
+                <td>Score(0 - 100)</td>
+                <td>Hour Spent</td>
+            </tr>
+            <tr>
+                <th>Monday</th>
+                <td>Product Design</td>
+                <td>40</td>
+                <td>2 Hour 30 Min</td>
+            </tr>
+            <tr>
+                <th>Tuesday</th>
+                <td>Product Design</td>
+                <td>60</td>
+                <td>3 Hour 20 Min</td>
+            </tr>
+            <tr>
+                <th>Wednesday</th>
+                <td>Data Science</td>
+                <td>20</td>
+                <td>1 Hour 30 Min</td>
+            </tr>
+            <tr>
+                <th>Thursday</th>
+                <td>UI Design</td>
+                <td>60</td>
+                <td>2 Hour 20 Min</td>
+            </tr>
+            <tr>
+                <th>Friday</th>
+                <td>UX Design</td>
+                <td>30</td>
+                <td>2 Hour 30 Min</td>
+            </tr>
+            <tr>
+                <th>Saturday</th>
+                <td>Data Science</td>
+                <td>50</td>
+                <td>2 Hour 40 Min</td>
+            </tr>
+            <tr>
+                <th>Sunday</th>
+                <td>HTML & CSS</td>
+                <td>70</td>
+                <td>3 Hour 30 Min</td>
+            </tr>
+        </table>
+        </section>
 
-                </tr>
-            </table>
+        <!-- JOIN US SECTION -->
+
+        <section class="join container">
+            <header class="join-section-header flex justify-center align-center">
+            <h3 class="flex-100">Join Us and Let's Study With Your Friends</h3>
+            <div class="switch-container flex">
+                <h4>Monthly</h4>
+                <div class="switch"></div>
+                <h4>Yearly</h4>
+            </div>
+            </header>
+            <div class="plans-container flex justify-bw sm-column sm-center">
+                <div class="plan flex-100">
+                    <h3>Basic</h3>
+                    <p>
+                        Its a long established fact that a reader 
+                        will be distracted by a readable.
+                    </p>
+                    <h2 class="price">
+                        48
+                    </h2>
+                    <div class="plan-details">
+                        <h5> <span>&check; </span>50 Courses a day</h5>
+                        <h5> <span>&check; </span>4 Forums a month</h5>
+                        <h5> <span>&check;</span> 16 Chapters a day</h5>
+                        <h5> <span>&#x274C; </span>Private lessons once a week</h5>
+                        <h5> <span>&#x274C; </span>Get weekly reward</h5>
+                    </div>
+                    <a href="#" class="btn secondry-btn">Get Started</a>
+                </div>
+                <div class="plan flex-100">
+                    <h3>Most Popular</h3>
+                    <p>
+                        Its a long established fact that a reader 
+                        will be distracted by a readable.
+                    </p>
+                    <h2 class="price">
+                        58
+                    </h2>
+                    <div class="plan-details">
+                        <h5> <span>&check; </span>50 Courses a day</h5>
+                        <h5> <span>&check; </span>4 Forums a month</h5>
+                        <h5> <span>&check; </span> 16 Chapters a day</h5>
+                        <h5> <span>&check; </span>Private lessons once a week</h5>
+                        <h5> <span>&check; </span>Get weekly reward</h5>
+                    </div>
+                    <a href="#" class="btn secondry-btn btn-colored">Get Started</a>
+                </div>
+            </div>
+        </section>
+        <!-- GET STARTED SECTION -->
+        
+        <section class="container started">
+                <div class="get-started flex justify-center align-center">
+                    <h2 class="flex-100">Start Your 30 day trial now</h2>
+                    <a href="#" class="btn flex-100">Get Started</a>
+                </div>
         </section>
     </main>
+
+    <!-- FOOTER -->
+    <footer class="footer container">
+          <div class="flex justify-bw sm-column sm-align-center">
+            <div class="brand-container flex-100">
+              <h3 class="">TrackL</h3>
+             <p>
+                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             </p>
+             <nav>
+                <ul class="social flex">
+                  <li>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+
+            <div class="flex-100">
+              <h3>Features</h3>
+              <nav>
+                <ul>
+                  <li>
+                    <a href="#">Calander</a>
+                  </li>
+                  <li>
+                    <a href="#">Forum</a>
+                  </li>
+                  <li>
+                    <a href="#">Messanger</a>
+                  </li>
+                  <li>
+                    <a href="#">Schedule</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+            <div class="flex-100">
+              <h3>Support</h3>
+              <nav>
+                <ul>
+                  <li>
+                    <a href="#">About Us</a>
+                  </li>
+                  <li>
+                    <a href="#">Career</a>
+                  </li>
+                  <li>
+                    <a href="#">FAQs</a>
+                  </li>
+                  <li>
+                    <a href="#">Security</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+            <div class="flex-100">
+                <h3>Contact</h3>
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="#">hello@trackl.io</a>
+                        </li>
+                        <li>
+                            <a href="#">(+00) 0000 000 000</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+          </div>
+      </footer>
 </body>
 </html>
